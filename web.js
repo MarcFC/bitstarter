@@ -9,7 +9,6 @@ var indexString = indexBuffer.toString();
 
 app.get('/', function(request, response) {
   response.send(indexString);
-  //response.send("bla bla");
 });
 
 var port = process.env.PORT || 5000;
